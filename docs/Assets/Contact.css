@@ -1,0 +1,58 @@
+body {
+    font-family: "Courier New", Courier, monospace;
+    background: #fff;
+    color: #000;
+    padding: 40px;
+    line-height: 1.8;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn { 
+    from { opacity: 0; } 
+    to { opacity: 1; } 
+}
+
+@keyframes fadeOut { 
+    from { opacity: 1; } 
+    to { opacity: 0; } 
+}
+
+.fade-out { 
+    animation: fadeOut 0.5s forwards; 
+}
+
+.nav-links { 
+    position: absolute; 
+    top: 20px; 
+    right: 20px; 
+}
+
+.nav-links a { 
+    color: #000; 
+    text-decoration: none; 
+    margin-left: 15px; 
+    font-weight: bold; 
+}
+
+.scene-heading { 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    margin-top: 30px; 
+}
+
+.character { 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    margin-top: 25px; 
+}
+
+.dialogue { 
+    margin-left: 50px; 
+    max-width: 80%; 
+}
+
+.action { 
+    margin-left: 30px; 
+    font-style: italic; 
+}
